@@ -1,0 +1,85 @@
+/* Estilo general para la página y el menú superior */
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Menú superior */
+.top-menu {
+    background-color: #444;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.top-menu button {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.top-menu button:hover {
+    background-color: #666;
+}
+
+/* Estilo del encabezado de la tabla de empleados */
+h2 {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Estilo de la tabla de empleados */
+.employee-table {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.employee-table th, .employee-table td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+}
+
+.employee-table th {
+    background-color: #444;
+    font-weight: bold;
+}
+
+.employee-table td {
+    background-color: #222;
+}
+
+/* Estilo para los botones de Editar y Borrar */
+.edit-button, .delete-button {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-button:hover {
+    background-color: #666;
+}
+
+.delete-button:hover {
+    background-color: #833;
+}
